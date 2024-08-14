@@ -24,9 +24,9 @@ To set up the project on your local machine, follow these steps:
     ```bash
     git clone https://github.com/antonhtmnn/Scheduler.git
     ```
-2. Navigate to the `src` directory:
+2. Navigate to the `Scheduler` directory:
     ```bash
-    cd Scheduler/src
+    cd Scheduler/
     ```
 3. Compile the code using the provided Makefile:
     ```bash

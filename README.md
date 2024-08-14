@@ -36,9 +36,9 @@ To set up the project on your local machine, follow these steps:
 ### Makefile Usage
 
 The provided Makefile automates the build and testing process. It uses the clang C-compiler. If you do not have clang installed, you can install it with:
-    ```bash
-    sudo pacman -S clang
-    ```
+```bash
+sudo pacman -S clang
+```
     
 #### Make targets
 

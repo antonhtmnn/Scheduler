@@ -79,12 +79,15 @@ The project is structured as follows:
 ```
 Scheduler/
 ├── lib/
-│   ├── queue.c       # Implementation of the job queue
+│   ├── scheduler.h   # Header file for the scheduler
 │   ├── queue.h       # Header file for the job queue
+│   ├── ...
 ├── src/
-│   ├── scheduler.c   # Implementation of the scheduling algorithms
-│   ├── scheduler.h   # Header file for the scheduling algorithms
-│   ├── main.c        # Main program file
-│   └── Makefile      # Makefile for building the project
+│   ├── scheduler.c   # Implementation of the scheduler
+│   ├── queue.c       # Implementation of the job queue
+│   ├── ...
+├── tests/
+│   ├── ...
+├── Makefile          # Makefile for building the project
 └── README.md
 ```
